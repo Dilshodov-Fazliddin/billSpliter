@@ -25,16 +25,16 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public void addOrder(OrderRequest order) {
-
+    double commission=(order.getPrice().intValue() / 100.0)*12;
         if (order.getOption()== Option.SPLIT){
-            int people = order.getClients().size();
-            int price=order.getPrice().intValue();
+            double people = order.getClients().size();
+            double price=order.getPrice().intValue();
 
             orderRepository.addOrder(OrderRequest.builder()
                             .products(order.getProducts())
                             .clients(order.getClients())
                             .option(order.getOption())
-                            .price((double) (price/people))
+                            .price((price+commission)/people)
                     .build());
 
         }else {
@@ -42,7 +42,7 @@ public class OrderServiceImpl implements OrderService {
                     .products(order.getProducts())
                     .clients(order.getClients())
                     .option(order.getOption())
-                    .price(order.getPrice())
+                    .price(order.getPrice()+commission)
                     .build());
         }
     }
