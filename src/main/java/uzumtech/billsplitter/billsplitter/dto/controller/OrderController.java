@@ -10,7 +10,7 @@ import uzumtech.billsplitter.billsplitter.service.OrderService;
 
 
 @RestController
-@RequestMapping("/fazliddin's-restaurant/")
+@RequestMapping("/api/fazliddin's-restaurant/")
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class OrderController {
