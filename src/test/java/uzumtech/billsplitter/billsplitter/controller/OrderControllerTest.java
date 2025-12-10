@@ -7,7 +7,6 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 import tools.jackson.databind.ObjectMapper;
-import uzumtech.billsplitter.billsplitter.dto.controller.OrderController;
 import uzumtech.billsplitter.billsplitter.dto.request.OrderRequest;
 import uzumtech.billsplitter.billsplitter.dto.response.OrderResponse;
 import uzumtech.billsplitter.billsplitter.model.enums.Option;
