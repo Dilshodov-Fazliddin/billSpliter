@@ -1,4 +1,4 @@
-package uzumtech.billsplitter.billsplitter.dto.controller;
+package uzumtech.billsplitter.billsplitter.dto.controller1;
 
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
