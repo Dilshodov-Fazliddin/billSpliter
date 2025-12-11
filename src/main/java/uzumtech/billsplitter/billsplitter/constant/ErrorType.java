@@ -1,4 +1,4 @@
-package uzumtech.billsplitter.billsplitter.model.enums;
+package uzumtech.billsplitter.billsplitter.constant;
 
 public enum ErrorType {
     VALIDATION, INTERNAL, EXTERNAL

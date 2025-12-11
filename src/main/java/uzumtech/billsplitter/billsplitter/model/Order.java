@@ -2,7 +2,7 @@ package uzumtech.billsplitter.billsplitter.model;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import uzumtech.billsplitter.billsplitter.model.enums.Option;
+import uzumtech.billsplitter.billsplitter.constant.Option;
 
 import java.util.List;
 

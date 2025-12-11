@@ -1,11 +1,10 @@
 package uzumtech.billsplitter.billsplitter.dto.request;
 
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import uzumtech.billsplitter.billsplitter.model.enums.Option;
+import uzumtech.billsplitter.billsplitter.constant.Option;
 
 import java.util.List;
 

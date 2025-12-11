@@ -1,7 +1,7 @@
 package uzumtech.billsplitter.billsplitter.exception;
 
 import org.springframework.http.HttpStatus;
-import uzumtech.billsplitter.billsplitter.model.enums.ErrorType;
+import uzumtech.billsplitter.billsplitter.constant.ErrorType;
 
 public class DataNotFoundException extends ApplicationException {
     public DataNotFoundException(String message) {

@@ -9,7 +9,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import tools.jackson.databind.ObjectMapper;
 import uzumtech.billsplitter.billsplitter.dto.request.OrderRequest;
 import uzumtech.billsplitter.billsplitter.dto.response.OrderResponse;
-import uzumtech.billsplitter.billsplitter.model.enums.Option;
+import uzumtech.billsplitter.billsplitter.constant.Option;
 import uzumtech.billsplitter.billsplitter.service.OrderService;
 
 import java.util.List;

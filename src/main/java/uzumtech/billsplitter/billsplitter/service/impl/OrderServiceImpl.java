@@ -3,12 +3,11 @@ package uzumtech.billsplitter.billsplitter.service.impl;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import uzumtech.billsplitter.billsplitter.dto.request.OrderRequest;
 import uzumtech.billsplitter.billsplitter.dto.response.OrderResponse;
 import uzumtech.billsplitter.billsplitter.exception.DataNotFoundException;
-import uzumtech.billsplitter.billsplitter.model.enums.Option;
+import uzumtech.billsplitter.billsplitter.constant.Option;
 import uzumtech.billsplitter.billsplitter.repository.OrderRepository;
 import uzumtech.billsplitter.billsplitter.service.OrderService;
 

@@ -9,7 +9,6 @@ import org.mockito.MockitoAnnotations;
 import uzumtech.billsplitter.billsplitter.dto.request.OrderRequest;
 import uzumtech.billsplitter.billsplitter.dto.response.OrderResponse;
 import uzumtech.billsplitter.billsplitter.exception.DataNotFoundException;
-import uzumtech.billsplitter.billsplitter.model.enums.Option;
 import uzumtech.billsplitter.billsplitter.repository.OrderRepository;
 import uzumtech.billsplitter.billsplitter.service.impl.OrderServiceImpl;
 

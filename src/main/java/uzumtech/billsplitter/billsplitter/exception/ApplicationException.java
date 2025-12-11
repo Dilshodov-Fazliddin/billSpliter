@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 import org.springframework.http.HttpStatus;
-import uzumtech.billsplitter.billsplitter.model.enums.ErrorType;
+import uzumtech.billsplitter.billsplitter.constant.ErrorType;
 
 @Getter
 @ToString
